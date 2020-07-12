@@ -1,0 +1,1609 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:rgb(255,88,81);
+    background-color: #f2f1ed; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Condensed', sans-serif; */
+}
+html
+{
+    font-family: 'Saira Condensed', sans-serif; /*styl poczatkowy */
+
+}
+                            /* SEKCJA HEADER */
+.page1 header
+{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-color:rgb(255,88,81)
+}
+.page1 header > *
+{
+    position: absolute; /* Wszystkie dzieci headera */
+}
+.page1 header img
+{
+    width: 30%;
+    right: 0;
+    top: 130px;
+}
+.page1 header h1
+{
+    font-family: 'Roboto', sans-serif;
+    top: 80%;
+    font-size: 70px;
+    left: 520px;
+}
+.page1 header h2
+{
+    font-family: 'Roboto', sans-serif;
+    top: 10%;
+    font-size: 100px;
+    left: 150px;
+}
+.page1 header p 
+{
+    font-family: 'Roboto', sans-serif;
+    top: 50%;
+    font-size: 20px;
+    left: 500px;
+}
+.page1 header nav 
+{
+    right: 0;
+    padding: 30px;
+    
+}
+.page1 header nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 0 30px;
+    border-bottom: 1px solid transparent;
+}
+.page1 header nav a:hover
+{
+    border-bottom: 1px solid black;
+}
+
+                            /* SEKCJA MAIN - PROJEKTY */
+.page1 main div.project
+{
+    display: inline-block;
+    padding: 2%;
+    width: 33%;
+}
+.page1 main div.img
+{
+   
+   height: 40vh;
+   background-color: darkcyan;
+}
+.page1 main h2
+{
+   font-size: 2vh;
+   text-align: center;
+   padding-top: 4%;
+}
+
+
+                       /* SEKCJA MAIN - OPIS */
+                        
+.page1 main
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f1ed; 
+}
+main h2.tech
+{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 4vh;
+
+}
+.page1 main p
+{
+    font-size: 3vh;
+    text-align: center;
+    padding: 5% 5%;
+}
+                            /* SEKCJA FOOTER */
+.page1 footer
+{
+    background-color: #f2f1ed;
+    height: 3vh;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+                            /* SEKCJA ABOUT ME */
+
+                            /* SEKCJA ABOUT ME - HEADER */
+
+body.page2
+ {
+    background-color: #f2f1ed;
+ }                                               
+div.wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page2 hr
+{
+    width: 29%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-top-width: 0.2vh;
+}
+.page2 header h1
+{
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.page2 header
+{
+    height: 50vh;
+    background-color: #f2f1ed;
+}    
+.page2 img.headerpic
+{
+    margin-top: 6%;
+    margin-left: 30%;
+    width: 40%; 
+    height: 30vh;
+}          
+
+                                     /* SEKCJA ABOUT ME - MAIN */
+                                     
+.page2 main 
+{
+   width: 100%;
+   height: 50vh;
+
+}
+.page2 main p.aboutmetext
+{
+    font-size: 3vh;
+    text-align: center;
+    padding: 10% 5%;
+    font-family: 'Saira Condensed', sans-serif; 
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.page2 main h1
+{
+    text-align: center;
+    font-size: 2vh;
+    font-weight: normal;
+
+}
+.page2 main h2.aboutmeinfo1
+{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 4vh;
+    font-weight: normal;
+
+}
+.page2 main p.aboutmeinfo2
+{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 3vh;
+
+}
+
+                                        /* SEKCJA ABOUT ME - FOOTER */
+.page2 footer.aboutmefooter
+{
+    color: black;
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 3%;
+    height: 2vh;
+}
+
+@media (max-width:1440px)
+{
+    .page2 main 
+    {
+        height: 75vh;
+
+    }
+    .page2 img.headerpic
+    {
+        padding-top: 1%;
+        margin-left: 35%;
+        width: 30%; 
+        height: 35vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3.5vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 3vh;
+        font-weight: normal;
+
+    }
+    .page2 h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 2.5vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 2vh; 
+    }
+
+}
+@media (max-width:1660px)
+{
+    .page2 main 
+    {
+        height: 90vh;
+
+    }
+    .page2 img.headerpic
+    {
+        margin-left: 35%;
+        width: 30%; 
+        height: 35vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3.5vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 3vh;
+        font-weight: normal;
+
+    }
+    .page2 h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 5vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 3vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 2.3vh; 
+    }
+
+}
+    
+
+
+
+@media (max-width: 1366px) and (orientation: landscape) /* IPAD PRO */
+{
+    .page1 header img 
+    {
+        width: 35%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        font-size: 8vh;
+    }
+    .page1 header h2
+    {
+        font-size: 14vh;
+    }
+    .page1 header p 
+    {
+        font-size: 3.5vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 3vh;
+    }
+                              
+    .page1 main 
+    { 
+       height: 80vh;
+    }
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 5vh;
+    }
+    .page1 main p
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding: 5% 5%;
+    }
+
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 5% 2% 0 2%;
+        width: 33%;
+    }
+    .page1 main div.img
+    {
+   
+        height: 30vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .page2 main 
+    {
+        height: 58vh;
+
+    }
+
+    .page2 img.headerpic
+    {
+        margin-top: 4%;
+        margin-left: 35%;
+        width: 30%; 
+        height: 30vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding-bottom: 2%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 2%;
+        text-align: center;
+        font-size: 3vh;
+
+    }
+    
+}
+@media (max-width: 1024px)
+{
+    .page1 header img 
+    {
+        width: 40%;
+        
+    }
+    .page1 header 
+    {
+        height: 55vh;
+    }
+    .page1 header h1
+    {
+        right: 5%;
+        font-size: 3.5vh;
+    }
+    .page1 header h2
+    {
+        font-size: 9vh;
+    }
+    .page1 header p 
+    {
+        font-size: 2.5vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 2vh;
+    }
+
+    .page1 main 
+    { 
+       height: 60vh;
+    }
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 4vh;
+    }
+    .page1 main p
+    {
+        font-size: 2.6vh;
+        text-align: center;
+        padding: 5% 5%;
+    }
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 5% 2% 0 2%;
+        width: 33%;
+    }
+    .page1 main div.img
+    {
+        height: 20vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 2.2vh;
+        text-align: center;
+        padding-top: 3%;
+    }
+
+    .page2 main 
+    {
+        height: 70vh;
+
+    }
+
+    .page2 img.headerpic
+    {
+        margin-top: 4%;
+        margin-left: 35%;
+        width: 30%; 
+        height: 30vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding-bottom: 2%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 2.5vh;
+
+    }
+
+
+   
+}
+    @media (max-width: 1024px) and (orientation: landscape) /* IPAD */
+{
+    .page1 header img 
+    {
+        width: 40%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        font-size: 6vh;
+    }
+    .page1 header h2
+    {
+        font-size: 14vh;
+    }
+    .page1 header p 
+    {
+        font-size: 3.5vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 3.5vh;
+    }
+
+    .page1 main 
+    {
+        height: 80vh;
+    }
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 2% 2% 0 2%;
+        width: 33%;
+    }
+    .page1 main div.img
+    {
+        height: 30vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+}
+@media (max-width: 768px)
+{
+    .page1 header img 
+    {
+        width: 50%;
+
+    }
+    .page1 header 
+    {
+        height: 70vh;
+    }
+    .page1 header h1
+    {
+        left: 34vh;
+        top: 85%;
+        font-size: 4vh;
+    }
+    .page1 header h2
+    {
+        top: 8%;
+        left: 7%;
+        font-size: 9vh;
+    }
+    .page1 header p 
+    {
+        left: 40%;
+        top: 50%;
+        font-size: 2.5vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 2vh;                /* TUTAJ mniejsza szerokosc */
+
+    }
+    .page1 main 
+    { 
+       height: 60vh;
+    }
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 3vh;
+    }
+    .page1 main p
+    {
+        font-size: 2vh;
+        text-align: center;
+        padding: 5% 5%;
+    }
+
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 10% 2% 0 2%;
+        width: 33%;
+    }
+    .page1 main div.img
+    {
+        
+        height: 20vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 2vh;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+    .page2 main 
+    {
+        height: 90vh;
+
+    }
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 4vh;
+        font-size: 5vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 1.5vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 2vh; 
+    }
+    
+    .page2 img.headerpic
+    {
+        padding-top: 1%;
+        margin-left: 35%;
+        width: 30%; 
+        height: 20vh;
+    }  
+    
+
+    
+}
+@media (max-width: 700px) and (orientation:landscape)  /* LUMIA */
+{
+    .page1 header img 
+    {
+        width: 25%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 32vh;
+        left: 30%;
+        font-size: 2.5vh;
+    }
+    .page1 header h2
+    {
+        top: 6vh;
+        left: 50%; 
+        font-size: 8vh; 
+    }
+    .page1 header p 
+    {
+        left: 26%;
+        font-size: 2vh;
+        top: 22%;
+    }
+    .page1 header nav a
+    {
+        font-size: 1.2vh;               
+    }
+ 
+}
+
+@media (max-width: 400px) 
+{
+    .page1 header img 
+    {
+        width: 46%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 50%;
+        left: 12%;
+        font-size:10vh;
+    }
+    .page1 header h2
+    {
+        top: 10%;
+        left: 10%;
+        font-size: 7vh;
+    }
+    .page1 header p 
+    {
+        left: 50%;
+        font-size: 2.5vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 2vh;               
+    }
+
+    
+}
+@media (max-width: 640px) and (orientation:landscape)  /* Galaxy */
+{
+    .page1 header img 
+    {
+        width: 30%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 30;
+        left: 80%;
+        font-size: 2.5vh;
+    }
+    .page1 header h2
+    {
+        top: 5%;
+        left: 3%;
+        font-size: 8vh;
+    }
+    .page1 header p 
+    {
+        left: 40%;
+        font-size: 2vh;
+        top: 40%;
+    }
+    .page1 header nav a
+    {
+        font-size: 1.3vh;               
+    }
+   
+    
+}
+@media (max-width: 360px) 
+{
+    .page1 header img 
+    {
+        width: 50%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 80%;
+        left: 30%;
+        font-size:2.8vh;
+    }
+    .page1 header h2
+    {
+        top: 30%;
+        left: 5%;
+        font-size: 10vh;
+    }
+    .page1 header p 
+    {
+        left: 40%;
+        font-size: 2vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 1.2vh;               
+    } 
+
+    
+
+}
+@media (max-width: 736px) and (orientation:landscape) /* Iphone 6/7*/
+{
+    .page1 header img 
+    {
+        width: 30%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 80%;
+        left: 50%;
+        font-size:5vh;
+    }
+    .page1 header h2
+    {
+        top: 10%;
+        left: 12%;
+        font-size: 15vh;
+    }
+    .page1 header p 
+    {
+        top: 50%;
+        left: 40%;
+        font-size: 5vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 3.5vh;               
+    } 
+
+    .page2 main 
+    {
+        height: 65vh;
+
+    }
+    .page2 img.headerpic
+    {
+        padding-top: 10%;
+        margin-left: 30%;
+        width: 45%; 
+        height: 30vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 4vh;
+        font-size: 5vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 1.5vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 2vh; 
+    }
+
+
+    
+}
+@media (max-width: 414px) 
+{
+    .page1 header img 
+    {
+        width: 60%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 80%;
+        left: 25%;
+        font-size:3.7vh;
+    }
+    .page1 header h2
+    {
+        top: 12%;
+        left: 5%;
+        font-size: 8vh;
+    }
+    .page1 header p 
+    {
+        top: 55%;
+        left: 40%;
+        font-size: 3vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 1.5vh;               
+    }
+
+
+    .page1 main 
+    {
+        height: 70vh;
+    }
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 20% 0% 0 4%; 
+        width: 31%;
+    }
+    .page1 main div.img
+    {
+        
+        height: 20vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 2vh;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+
+    .page2 main 
+    {
+        height: 50vh;
+
+    }
+    .page2 img.headerpic
+    {
+        padding-top: 10%;
+        margin-left: 30%;
+        width: 45%; 
+        height: 30vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 2.2vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 2vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 1.3vh; 
+    }
+
+
+}
+
+@media (max-width: 568px) and (orientation:landscape)/* Iphone 5/SE */
+{
+    .page1 header img 
+    {
+        width: 27%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 88%;
+        left: 55%;
+        font-size:7vh;
+    }
+    .page1 header h2
+    {
+        top: 15%;
+        left: 5%;
+        font-size: 15vh;
+    }
+    .page1 header p 
+    {
+        left: 40%;
+        font-size: 4vh;
+        top: 60%;
+    }
+    .page1 header nav a
+    {
+        font-size: 4vh;               
+    }
+   
+    
+}
+@media (max-width: 320px) 
+{
+    .page1 header img 
+    {
+        left: 60%;
+        width: 40%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 70%;
+        left: 25%;
+        font-size:4.2vh;
+    }
+    .page1 header h2
+    {
+        top: 20%;
+        left: 10%;
+        font-size: 8vh;
+    }
+    .page1 header p 
+    {
+        top: 48%;
+        left: 40%;
+        font-size: 2.5vh;
+    }
+    .page1 header nav a
+    {
+        
+        font-size: 1.3vh;               
+    } 
+
+    
+    
+
+}
+@media (max-width: 812px) and (orientation:landscape)/* Iphone X */
+{
+    .page1 header img 
+    {
+        top: 25%;
+        width: 26%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 80%;
+        left: 50%;
+        font-size:8vh;
+    }
+    .page1 header h2
+    {
+        top: 15%;
+        left: 10%;
+        font-size: 15vh;
+    }
+    .page1 header p 
+    {
+        left: 40%;
+        font-size: 5vh;
+        top: 50%;
+    }
+    .page1 header nav a
+    {
+        font-size: 4vh;               
+    }
+
+
+
+
+    .page1 main 
+    { 
+       height: 80vh;
+    }
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 8vh;
+    }
+    .page1 main p
+    {
+        font-size: 5vh;
+        text-align: center;
+        padding: 2% 2%;
+    }
+
+
+
+    .page1 main 
+    {
+        height: 110vh;
+    }
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 4% 2% 2% 2%; 
+        width: 33%;
+    }
+    .page1 main div.img
+    {
+        
+        height: 40vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 3.3vh;
+        text-align: center;
+        padding-top: 4%;
+    }
+    
+
+
+    .page2 img.headerpic
+    {
+        padding-top: 1%;
+        margin-left: 40%;
+        width: 20%; 
+        height: 40vh;
+    }  
+
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 2%;
+        text-align: center;
+        font-size: 3vh;
+
+    }
+
+    
+
+    
+    
+   
+    
+}
+@media (max-width: 375px) 
+{
+    .page1 header img 
+    {
+        left: 40%;
+        width: 60%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 80%;
+        left: 20%;
+        font-size:3.8vh;
+    }
+    .page1 header h2
+    {
+        top: 20%;
+        left: 10%;
+        font-size: 7vh;
+    }
+    .page1 header p 
+    {
+        top: 55%;
+        left: 40%;
+        font-size: 3vh;
+    }
+    .page1 header nav a
+    {
+        font-size: 1.3vh;               
+    }
+
+
+
+    .page1 main 
+    { 
+       height: 80vh;
+    }
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 4vh;
+    }
+    .page1 main p
+    {
+         font-size: 0.5vh;
+        text-align: center;
+        padding: 2% 2%;
+    }
+
+    .page1 main 
+    {
+        height: 60vh;
+    }
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 14% 0 0 4%; 
+        width: 32%;
+    }
+    .page1 main div.img
+    {
+        
+        height: 16vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 1.6vh;
+        text-align: center;
+        padding-top: 4%;
+    }
+    .page1 footer
+    {
+        font-size: 2vh;
+    }
+
+    .page2 main 
+    {
+        height: 50vh;
+
+    }
+    .page2 img.headerpic
+    {
+        padding-top: 10%;
+        margin-left: 30%;
+        width: 45%; 
+        height: 30vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 2vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 main h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 2vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 1.3vh; 
+    }
+
+
+    
+
+}
+@media (max-width: 823px) and (orientation:landscape)/* Pixel2XL X */
+{
+    .page1 header img 
+    {
+        top: 25%;
+        width: 26%;
+    }
+    .page1 header 
+    {
+        height: 100vh;
+    }
+    .page1 header h1
+    {
+        top: 80%;
+        left: 50%;
+        font-size:8vh;
+    }
+    .page1 header h2
+    {
+        top: 15%;
+        left: 10%;
+        font-size: 15vh;
+    }
+    .page1 header p 
+    {
+        left: 40%;
+        font-size: 5vh;
+        top: 50%;
+    }
+    .page1 header nav a
+    {
+        font-size: 4vh;               
+    }
+
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 6vh;
+    }
+    .page1 main p
+    {
+         font-size: 4vh;
+        text-align: center;
+        padding: 2% 10%;
+    }
+
+
+    .page1 main 
+    {
+        height: 100vh;
+    }
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 5% 2% 0 2%; 
+        width: 33%;
+    }
+    .page1 main div.img
+    {
+        
+        height: 40vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 3.5vh;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+    .page2 main 
+    {
+        height: 80vh;
+
+    }
+    .page2 img.headerpic
+    {
+        margin-left: 40%;
+        width: 20%; 
+        height: 45vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 3.8vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 5vh;
+        font-weight: normal;
+
+    }
+    .page2 h2.aboutmeinfo1
+    {
+        text-align: center;
+
+        font-size: 5vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 2%;
+        text-align: center;
+        font-size: 3vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 2vh; 
+    }
+   
+    
+}
+@media (max-width: 411px)
+{
+    .page1 main 
+    {
+        height: 55vh;
+    }
+
+    .page1 main div.project
+    {
+        display: inline-block;
+        padding: 8% 0 0 2%; 
+        width: 32%;
+    }
+    .page1 main div.img
+    {
+        height: 18vh;
+        background-color: darkcyan;
+    }
+    .page1 main h2
+    {
+        font-size: 2vh;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+    .page1 main h2.tech
+    {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 4vh;
+    }
+    .page1 main p
+    {
+         font-size: 2vh;
+        text-align: center;
+        padding: 5% 10%;
+    }
+
+
+    .page2 main 
+    {
+        height: 68vh;
+
+    }
+    .page2 img.headerpic
+    {
+        padding-top: 10%;
+        margin-left: 30%;
+        width: 45%; 
+        height: 30vh;
+    }  
+
+    .page2 main p.aboutmetext
+    {
+        font-size: 2.5vh;
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: 'Saira Condensed', sans-serif; 
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .page2 main h1
+    {
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: normal;
+
+    }
+    .page2 h2.aboutmeinfo1
+    {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 4vh;
+        font-weight: normal;
+
+    }
+    .page2 main p.aboutmeinfo2
+    {
+        padding-top: 10%;
+        text-align: center;
+        font-size: 2.5vh;
+
+    }
+    .page2 footer.aboutmefooter
+    {
+        font-size: 1.5vh; 
+    }
+
+}
+
+
+
