@@ -29,41 +29,41 @@ html
 {
     width: 30%;
     right: 0;
-    top: 130px;
+    top: 13%;
 }
 .page1 header h1
 {
     font-family: 'Roboto', sans-serif;
     top: 80%;
-    font-size: 70px;
-    left: 520px;
+    font-size: 4.5vh;
+    left: 55%;
 }
 .page1 header h2
 {
     font-family: 'Roboto', sans-serif;
     top: 10%;
-    font-size: 100px;
-    left: 150px;
+    font-size: 14vh;
+    left: 10%;
 }
 .page1 header p 
 {
     font-family: 'Roboto', sans-serif;
     top: 50%;
-    font-size: 20px;
-    left: 500px;
+    font-size: 3vh;
+    left: 35%;
 }
 .page1 header nav 
 {
+    width: 35%;
     right: 0;
-    padding: 30px;
-    
+    padding-top:4%;  
 }
 .page1 header nav a
 {
     text-decoration: none;
     color: black;
-    font-size: 24px;
-    margin: 0 30px;
+    font-size: 3.5vh;
+    margin: 5%;
     border-bottom: 1px solid transparent;
 }
 .page1 header nav a:hover
@@ -86,7 +86,7 @@ html
 }
 .page1 main h2
 {
-   font-size: 2vh;
+   font-size: 3vh;
    text-align: center;
    padding-top: 4%;
 }
@@ -118,7 +118,7 @@ main h2.tech
 .page1 footer
 {
     background-color: #f2f1ed;
-    height: 3vh;
+    height: 2.5vh;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -159,10 +159,10 @@ div.wrapper
 }    
 .page2 img.headerpic
 {
-    margin-top: 6%;
-    margin-left: 30%;
-    width: 40%; 
-    height: 30vh;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 15%; 
+    height: 25vh;
 }          
 
                                      /* SEKCJA ABOUT ME - MAIN */
@@ -175,9 +175,9 @@ div.wrapper
 }
 .page2 main p.aboutmetext
 {
-    font-size: 3vh;
+    font-size: 2.5vh;
     text-align: center;
-    padding: 10% 5%;
+    padding: 8% 5%;
     font-family: 'Saira Condensed', sans-serif; 
     margin-left: 10%;
     margin-right: 10%;
@@ -186,23 +186,23 @@ div.wrapper
 .page2 main h1
 {
     text-align: center;
-    font-size: 2vh;
+    font-size: 1vh;
     font-weight: normal;
 
 }
 .page2 main h2.aboutmeinfo1
 {
     text-align: center;
-    margin-top: 2vh;
-    font-size: 4vh;
+    margin-top: 4vh;
+    font-size: 6vh;
     font-weight: normal;
 
 }
 .page2 main p.aboutmeinfo2
 {
-    padding-top: 1%;
+    padding-top: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2vh;
 
 }
 
@@ -273,14 +273,15 @@ div.wrapper
 {
     .page2 main 
     {
-        height: 90vh;
+        height: 80vh;
 
     }
     .page2 img.headerpic
     {
-        margin-left: 35%;
-        width: 30%; 
-        height: 35vh;
+        margin-left: 40%;
+        width: 20%; 
+        margin-top: 5%;
+        height: 30vh;
     }  
 
     .page2 main p.aboutmetext
@@ -826,8 +827,11 @@ div.wrapper
     {
         font-size: 1.3vh;               
     }
-   
-    
+    .page1 footer
+    {
+        font-size: 2.8vh;
+    }
+  
 }
 @media (max-width: 360px) 
 {
@@ -896,6 +900,10 @@ div.wrapper
     {
         font-size: 3.5vh;               
     } 
+    .page1 footer
+    {
+        font-size: 3.2vh;
+    }
 
     .page2 main 
     {
@@ -1287,6 +1295,7 @@ div.wrapper
     }
     .page1 header nav a
     {
+        
         font-size: 1.3vh;               
     }
 
@@ -1472,7 +1481,7 @@ div.wrapper
     {
         margin-left: 40%;
         width: 20%; 
-        height: 45vh;
+        height: 40vh;
     }  
 
     .page2 main p.aboutmetext
@@ -1481,8 +1490,8 @@ div.wrapper
         text-align: center;
         padding-bottom: 5%;
         font-family: 'Saira Condensed', sans-serif; 
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
     
     }
     .page2 main h1
